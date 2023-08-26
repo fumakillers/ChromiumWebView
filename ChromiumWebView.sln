@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromiumWebView", "ChromiumWebView.csproj", "{431A6E12-D121-49FD-AEA1-333F69EFBFAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|x64.ActiveCfg = Debug|x64
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|x64.Build.0 = Debug|x64
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|x86.ActiveCfg = Debug|x86
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Debug|x86.Build.0 = Debug|x86
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|x64.ActiveCfg = Release|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|x64.Build.0 = Release|Any CPU
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|x86.ActiveCfg = Release|x86
+		{431A6E12-D121-49FD-AEA1-333F69EFBFAA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65E1FF38-968D-4289-A01A-0E89565E77D4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="homeToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1262, 749</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAajn8Br6hGKMeoRUrgpkJW87FfWPnHjFnyxYlZ2r+GVrO6hzpksZAEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACuqkUNx6hFTt6mRJ/npkPR56ZD8+6lQv/2p1H/+cKE//fJjv/vxo3/6MaN4unEiqvJvoljtrqFEgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABUr0sCyqhFP92nQ6/upULy8qVC//alQv/2pUL/9aVC//ehQv/6q2T/+cmP//rKkP/6ypD/98mP//PI
+        jvfkxIrAyL+IUoKzhgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAArKtHBs+nRWzopkPi9KVC//WlQv/1pUL/9aVC//WlQv/1pUL/9qNB//yYS//6vH3/+cuR//nK
+        kP/5ypD/+cqQ//nKj//rx43v28GIfLC9ggkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALeqSQfUp0V/66VD9fWlQv/1pUL/9aVC//WlQv/1pUL/9aVC//WlQv/1pEL/+pZD//yj
+        Xv/5yI3/+cqQ//nKkP/5ypD/+cqQ//rKkP/zyI3648OIjca/gQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACQqkcDz6dEbOumQ/T1pUL/9aVC//WlQv/1pUL/9aVC//WlQv/1pUL/9aVC//Wl
+        Qv/5m0P//o9I//q5ef/5y5H/+cqQ//nKkP/5ypD/+cqQ//nKkP/zyI3528GIfKC4hgUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMmnRkDopkPj9aVC//WlQv/1pUL/9aVC//WlQv/1pUL/9aVC//Wl
+        Qv/1pUH/9aVB//efQf/+jEL//Z5Z//nGiv/5ypD/+cqQ//nKkP/5ypD/+cqQ//rKkP/rx43xyL+JUwBD
+        iQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5p0YO3aZEsPSlQv/1pUL/9aVC//WlQv/1pUL/9aVC//Wl
+        Qv/1pED/9aVC//aqTP/2rVL/96pS//2WTf//jUb/+rJx//nLkf/5ypD/+cqQ//nKkP/5ypD/+cqQ//nK
+        j//jxIrCubmEEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMinRE/upULz9aVC//WlQv/1pUL/9aVC//Wl
+        Qv/1pUL/9aVB//avV//5zJT//ObK//705//+9Of//uDL//+8lP/9pmf/+cOH//nKkP/5ypD/+cqQ//nK
+        kP/5ypD/+cqQ//PIjvfJvodkAAAAAAAAAAAAAAAAAAAAAAAAAACdqEUC3qZEn/KlQv/1pUL/9aVC//Wl
+        Qv/1pUL/9aVC//WlQf/3tWT//ObK///w5///z7P//7mQ//+5kP//z7P///Dn///fy//7wo3/+cmP//nK
+        kP/5ypD/+cqQ//nKkP/5ypD/98mP/+nFiquLtI8FAAAAAAAAAAAAAAAAAAAAALGpRinnpkPS9qVC//Wl
+        Qv/1pUL/9aVC//WlQv/1pED/9q5W//zlyP//5NT//6Rv//+MSP//iUL//4lC//+NSP//pXD//+TU//7n
+        1P/6y5X/+cqP//nKkP/5ypD/+cqQ//nKkP/6ypD/6MaN47O6hzoAAAAAAAAAAAAAAAAAAAAAx6hFS+em
+        Q/T2pUL/9aVC//WlQv/1pUL/9aVC//WkQv/6w5L///Dm//+kb///iUL//4pE//+KRP//ikT//4pE//+J
+        Qv//pXD///Dm//zfvv/5ypD/+cqQ//nKkP/5ypD/+cqQ//rKkP/uxo3+2r+GVgAAAAAAAAAAAAAAAAAA
+        AADgpkNX7qVC//WlQv/1pUL/9aVC//WlQv/1pUH/95xJ//7XyP//z7P//4xI//+KRP//ikT//4pE//+K
+        RP//ikT//4pE//+NSP//z7P//fHh//nNlv/5ypD/+cqQ//nKkP/5ypD/+cqQ//fIjf/yxYhZAAAAAAAA
+        AAAAAAAAAAAAAO+lQljzpUL/9aVC//WlQv/1pUL/9aVC//WgQP/7fkj//+jk//+5kP//iUL//4pE//+K
+        RP//ikT//4pE//+KRP//ikT//4lC//+5j//++PH/+s6Z//nKj//5ypD/+cqQ//nKkP/5ypD/+cmP//jI
+        jVkAAAAAAAAAAAAAAAAAAAAA76VCWPOlQv/1pUL/9aVC//WlQv/1pkL/+Ic7//1jQ///5+T//7mP//+J
+        Qv//ikT//4pE//+KRP//ikT//4pE//+KRP//iUL//7mP//758f/6z5n/+cqP//nKkP/5ypD/+cqQ//nK
+        kP/5yY//+MiNWQAAAAAAAAAAAAAAAAAAAADgpkNX7qVC//WlQv/1pUL/9aVC//adQP/8YzT//lo8///T
+        yP//z7L//4xI//+KRP//ikT//4pE//+KRP//ikT//4pE//+MSP//z7L//fHh//nNlv/5ypD/+cqQ//nK
+        kP/5ypD/+cqQ//fIjf/yxYhZAAAAAAAAAAAAAAAAAAAAAMioRUvnpkP09qVC//WlQv/1pEL/+Xw6//5T
+        Mf/9XTj//qOR///v5v//pW///4lC//+KRP//ikT//4pE//+KRP//iUL//6Rv///x6P/84cD/+cqQ//nK
+        kP/5ypD/+cqQ//nKkP/6ypD/78aN/tq/hlYAAAAAAAAAAAAAAAAAAAAAsqlHKeemQ9L2pUL/9aZC//eU
+        Pv/8YDT//V03//5aO//+bFP//9HJ///l1P//pW///4xI//+IQf//iEL//4xI//+kb///49P//u/f//rP
+        nP/5yo//+cqQ//nKkP/5ypD/+cqQ//rKkP/oxo3jtLuHOgAAAAAAAAAAAAAAAAAAAACfqUgC36ZEn/Kl
+        Qv/1okH/+nM4//1dOP/+XD3//lo9//5ZPP/+eGD//9HJ///v5///z7L//7mP//+5j///z7L///Ho///q
+        3P/+xZz//L2J//vCjP/6xY3/+ciP//nKkP/5y5D/98qQ/+nEiqx9ro0FAAAAAAAAAAAAAAAAAAAAAAAA
+        AADIp0RP7qZC8/eNPf/8Yzn//ls9//5aPf/+Wj3//lo9//5ZPP/+bVP//qKS///Ryv//6uf//+3p///i
+        1v//y7L//7GJ//+oe///qXv//6p8//6sff/9r3///LOC//y4hP/1vof4yr+IZQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALurRQ7gm0Kx+3I8//5bPf/+Wj3//lo9//5aPf/+Wj3//lo9//5ZO//+Wj3//mNI//5o
+        Tf/+aU7//mZK//5iRP/+YUL//mJD//5iQ//+YkP//mJD//5iQ//+YkP//mRF/++BWcbIp3gUAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAN2DQEj1Zj7s/lk9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5a
+        Pf/+WTz//lk8//5ZPP/+WTz//lk9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5ZPP/1akn02YtjWAD/
+        /wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyotCBexxP3j6YD74/lo9//5aPf/+Wj3//lo9//5a
+        Pf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3/+2RE+eyC
+        WoDIqngGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4nw9CfFuP4j6YD76/lo9//5a
+        Pf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lk9//tk
+        RPvwelWQ0pxtCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA14RACOxz
+        P3j2Yz7r/ls9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5aPf/+Wj3//lo9//5b
+        Pf/1akny7YBYf7ypegsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAsqhEBOJ5QEzyaz+8+1899f1bPf//WT3//lk9//5aPf/+Wj3//lo9//5aPf/+WTz//1k8//1d
+        P//6YkP58HRQxtmKYlmxwYsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANaIQhHieEFc9Gg/qPVkPtz4Yz77/F49//5bPf/+XD///WBB//lo
+        R//ybEvp9HFPrtuJYGzNm24VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUtUwD1oZCNOp2P1P5Zj1Y/V49Wf5g
+        Qln8a0lZ74JaV9CZbUCTsp0FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////////////4Af//4AB//4AAH/8AAA/+AAAH/AAAA/wAAAH4AAAB+AA
+        AAfAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD4AAAB+AAAAfwAAAH8AAAD/gA
+        AB/8AAA//gAAf/+AAf//4Af///////////8=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>backGroundPanel</value>
+  </data>
+  <data name="backendToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="&gt;&gt;backGroundPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reloadToolStripButton.Name" xml:space="preserve">
+    <value>reloadToolStripButton</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        dAAAEnQB3mYfeAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;backGroundPanel.Name" xml:space="preserve">
+    <value>backGroundPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="loadingToolStripButton.Text" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="reloadToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reloadToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="&gt;&gt;statusMessageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="&gt;&gt;backGroundPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="backToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="backToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homeToolStripButton.Name" xml:space="preserve">
+    <value>homeToolStripButton</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="loadingToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1262, 39</value>
+  </data>
+  <data name="&gt;&gt;backToolStripButton.Name" xml:space="preserve">
+    <value>backToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="loadingToolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="backGroundPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1262, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="reloadToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="statusMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="&gt;&gt;backToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 688</value>
+  </data>
+  <data name="backGroundPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1262, 710</value>
+  </data>
+  <data name="reloadToolStripButton.Text" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadingToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="backGroundPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;loadingToolStripButton.Name" xml:space="preserve">
+    <value>loadingToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusMessageLabel.Name" xml:space="preserve">
+    <value>statusMessageLabel</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;backGroundPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="backGroundPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="backToolStripButton.Text" xml:space="preserve">
+    <value>toolStripButton3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ChromiumWebView</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;backendToolStripButton.Name" xml:space="preserve">
+    <value>backendToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;backendToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja-JP</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+</root>
